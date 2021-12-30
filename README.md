@@ -1,2 +1,2 @@
-# memory-sequence-game
+# blinking-lights
 Created with CodeSandbox

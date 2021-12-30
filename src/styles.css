@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background: black;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.3;
+    scale: 0.97;
+  }
+}
+
+.dot {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px red;
+  animation-name: blink;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#app {
+  height: 100%;
+  display: flex;
+}
+#info {
+  color: gray;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5vw;
+}
